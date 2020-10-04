@@ -17,7 +17,7 @@ window.addEventListener('beforescriptexecute',
     if('http://www.cursordanceparty.com/js/party-0.2.0.js' === originalScript.src)
     {
       var replacementScript = document.createElement('script');
-      replacementScript.src = 'https://raw.githubusercontent.com/Mark42XLII/cursor-dance-army/master/party.js';
+      replacementScript.src = 'https://cdn.jsdelivr.net/gh/Mark42XLII/cursor-dance-army@master/party.js';
       originalScript.parentNode.replaceChild(replacementScript, originalScript);
       event.preventDefault();
     }
